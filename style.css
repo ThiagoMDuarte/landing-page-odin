@@ -83,6 +83,7 @@
     justify-content: center;
     border: rgb(180, 19, 19) solid;
 
+    background-color: #f9faf8;
     font-size: 36px;
     color: #1f2937;
     font-weight: bold;
@@ -92,16 +93,32 @@
 .second {
     display: flex;
     justify-content: center;
-
-    border: rgb(180, 19, 172) solid;
+    border: rgb(234, 255, 0) solid;
     padding: 5px;
     gap: 25px;
+    background-color: #f9faf8;
+    color: #1f2937;
 }
-.item {
+.itemcont {
     display: flex;
     flex-direction: column;
-    font-size: 50px;
-    border: rgb(0, 0, 0) solid;
+    align-items: center;
+    width: 180px;
+    
+}
+.itemimg {
+    align-content: center;
+    height: 120px;
+    width: 150px;
+    border-radius: 8px;
+    border: rgb(55, 0, 255) solid;
+}
+.itemtxt {
+    align-content: center;
+    align-items: center;
+    border: red solid;
+    padding: 2px;
+    width: 150px;
 }
 
 /* Quote section */
