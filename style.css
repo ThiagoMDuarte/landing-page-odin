@@ -5,7 +5,7 @@
 }
 
 .container {
-    border: blue solid;
+    background-color: #1f2937 ;
 
     display: flex;
     justify-content: space-between;
@@ -20,41 +20,122 @@
     padding: 5px;
     gap: 25px;
 }
+.right {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.left{
+    font-size: 24px;
+    color: #f9faf8;
+}
 
 .first {
     border: yellow solid;
     display: flex;
+    justify-content: center;
+    background-color: #1f2937;
 }
 
 .firstright, .firstleft {
     border: rgb(28, 149, 149) solid;
+    color: #f9faf8;
+    font-size: 48px;
+    margin-left: 150px;
+    margin-right: 150px;
+    width: 900px;
+    height: 200px;
+    padding: 5px;
 
     display: flex;
     flex-direction: column;
-    margin-left: 150px;
-    margin-right: 150px;
-    padding: 5px;
-    gap: 25px;
+    
 }
+
+#subtext{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#fbtn {
+    display: flex;
+    color: #f9faf8;
+    border-radius: 6px;
+    background-color: #3882f6;
+    justify-content: center;
+    width: 100px;
+}
+
+#image {
+    margin-right: 150px;
+}
+
 .second {
     display: flex;
     justify-content: center;
+
     border: rgb(180, 19, 172) solid;
-    margin-left: 150px;
-    margin-right: 150px;
     padding: 5px;
     gap: 25px;
 }
 .item {
     display: flex;
     flex-direction: column;
+    border: green solid;
 }
 
 .title {
     display: flex;
     justify-content: center;
     border: rgb(180, 19, 19) solid;
-    margin-left: 150px;
-    margin-right: 150px;
+
     padding: 5px;
+}
+
+.middle {
+    display: flex;
+    border: gray solid;
+}
+
+.midtext {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 5px;
+    border: green solid;
+}
+.midauthor {
+    display: flex;
+    justify-content: flex-end;
+
+    margin-right: 5px;
+    padding: 5px;
+    border: yellow solid;
+}
+
+.callcont {
+    display: flex;
+    justify-content: space-around;
+    border: blue solid;
+}
+.call {
+    display: flex;
+
+    border: red solid;
+}
+.callleft {
+    border: green solid;
+}
+.callright {
+    align-content: center;
+    border: yellow solid;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+
+    border: yellow solid;
 }
