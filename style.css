@@ -2,7 +2,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto';
 }
+/* Header content */
 
 .container {
     background-color: #1f2937 ;
@@ -19,6 +21,7 @@
     margin-right: 150px;
     padding: 5px;
     gap: 25px;
+    align-items: center;
 }
 .right {
     font-size: 18px;
@@ -29,11 +32,15 @@
     color: #f9faf8;
 }
 
+/* Main text */
+
 .first {
     border: yellow solid;
     display: flex;
     justify-content: center;
     background-color: #1f2937;
+    height: 400px;
+    align-items: center;
 }
 
 .firstright, .firstleft {
@@ -69,6 +76,19 @@
     margin-right: 150px;
 }
 
+/* Information */
+
+.title {
+    display: flex;
+    justify-content: center;
+    border: rgb(180, 19, 19) solid;
+
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bold;
+    padding: 5px;
+}
+
 .second {
     display: flex;
     justify-content: center;
@@ -80,16 +100,11 @@
 .item {
     display: flex;
     flex-direction: column;
-    border: green solid;
+    font-size: 50px;
+    border: rgb(0, 0, 0) solid;
 }
 
-.title {
-    display: flex;
-    justify-content: center;
-    border: rgb(180, 19, 19) solid;
-
-    padding: 5px;
-}
+/* Quote section */
 
 .middle {
     display: flex;
